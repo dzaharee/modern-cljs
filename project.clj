@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   ;; CLJ AND CLJS source code path
-  :source-paths ["src/clj" "src/cljs"]
+  :source-paths ["src/clj" "src/cljs" "src/brepl"]
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2069"]
                  [compojure "1.1.6"]
@@ -15,19 +15,43 @@
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.8"]]
 
-  ;; cljsbuild options config
   :cljsbuild {:builds
-              [{;; CLJS source code path
-                :source-paths ["src/cljs"]
+              {:dev
+               {;; clojurescript source code path
+                :source-paths ["src/cljs" "src/brepl"]
 
-                ;; Google Clojure (CLS) options configuration
-                :compiler {;; CLS generated JS script filename
-                           :output-to "resources/public/js/modern.js"
+                ;; Google Closure Compiler options
+                :compiler {;; the name of emitted JS script file
+                           :output-to "resources/public/js/modern_dbg.js"
 
-                           ;; minimal JS optimization directive
+                           ;; minimum optimization
                            :optimizations :whitespace
 
-                           ;; generated JS code prettyfication
-                           :pretty-print true}}]}
+                           ;; prettyfying emitted JS
+                           :pretty-print true}}
+               :prod
+               {;; clojurescript source code path
+                :source-paths ["src/cljs"]
+
+                :compiler {;; different output name
+                           :output-to "resources/public/js/modern.js"
+
+                           ;; simple optmization
+                           :optimizations :advanced
+
+                           ;; no need prettyfication
+                           :pretty-print false}}
+               :pre-prod
+               {;; clojurescript source code path
+                :source-paths ["src/cljs" "src/brepl"]
+
+                :compiler {;; different output name
+                           :output-to "resources/public/js/modern_pre.js"
+
+                           ;; simple optmization
+                           :optimizations :simple
+
+                           ;; no need prettyfication
+                           :pretty-print false}}}}
 
   :ring {:handler modern-cljs.core/handler})
