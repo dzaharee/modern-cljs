@@ -12,7 +12,8 @@
                  [domina "1.0.3-SNAPSHOT"]
                  [hiccups "0.2.0"]
                  [org.clojars.magomimmo/shoreleave-remote-ring "0.3.1-SNAPSHOT"]
-                 [org.clojars.magomimmo/shoreleave-remote "0.3.1-SNAPSHOT"]]
+                 [org.clojars.magomimmo/shoreleave-remote "0.3.1-SNAPSHOT"]
+                 [com.cemerick/valip "0.3.2"]]
 
   ;; lein-ljsbuild plugin to build a cljs project
   :plugins [[lein-cljsbuild "1.0.0"]
@@ -55,6 +56,8 @@
                            :optimizations :simple
 
                            ;; no need prettyfication
-                           :pretty-print false}}}}
+                           :pretty-print false}}}
+
+              :crossovers [valip.core valip.predicates modern-cljs.login.validators]}
 
   :ring {:handler modern-cljs.remotes/app})
