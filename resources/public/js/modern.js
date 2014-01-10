@@ -33884,7 +33884,7 @@ modern_cljs.shopping.init = function init() {
     return null
   }
 };
-window.onload = modern_cljs.shopping.init;
+goog.exportSymbol("modern_cljs.shopping.init", modern_cljs.shopping.init);
 goog.provide("modern_cljs.login");
 goog.require("cljs.core");
 goog.require("domina");
