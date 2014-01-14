@@ -20,6 +20,10 @@
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.8"]]
 
+  :hooks [leiningen.cljsbuild]
+
+  :test-paths ["test/clj"]
+
   :cljsbuild {:builds
               {:dev
                {;; clojurescript source code path
@@ -59,8 +63,8 @@
                            ;; no need prettyfication
                            :pretty-print false}}}
 
-              :crossovers [valip.core valip.predicates modern-cljs.login.validators]}
+              :crossovers [valip.core valip.predicates
+                           modern-cljs.login.validators
+                           modern-cljs.shopping.validators]}
 
-  :ring {:handler modern-cljs.core/app}
-
-  :hooks [leiningen.cljsbuild])
+  :ring {:handler modern-cljs.core/app})
