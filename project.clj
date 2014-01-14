@@ -18,14 +18,54 @@
 
   ;; lein-ljsbuild plugin to build a cljs project
   :plugins [[lein-cljsbuild "1.0.0"]
-            [lein-ring "0.8.8"]]
+            [lein-ring "0.8.8"]
+            [com.cemerick/clojurescript.test "0.2.1"]]
 
   :hooks [leiningen.cljsbuild]
 
-  :test-paths ["test/clj"]
+  :test-paths ["test/clj" "test/cljs"]
 
   :cljsbuild {:builds
-              {:dev
+              {:ws-unit-tests
+               {;; CLJS source code and unit test paths
+                :source-paths ["src/brepl" "src/cljs" "test/cljs"]
+
+                ;; Google Closure Compiler options
+                :compiler {;; the name of emitted JS script file for unit testing
+                           :output-to "test/js/testable_dbg.js"
+
+                           ;; minimum optimization
+                           :optimizations :whitespace
+                           ;; prettyfying emitted JS
+                           :pretty-print true}}
+
+               :simple-unit-tests
+               {;; same path as above
+                :source-paths ["src/brepl" "src/cljs" "test/cljs"]
+
+                :compiler {;; different JS output name for unit testing
+                           :output-to "test/js/testable_pre.js"
+
+                           ;; simple optimization
+                           :optimizations :simple
+
+                           ;; no need prettification
+                           :pretty-print false}}
+
+               :advanced-unit-tests
+               {;; same path as above
+                :source-paths ["src/cljs" "test/cljs"]
+
+                :compiler {;; different JS output name for unit testing
+                           :output-to "test/js/testable.js"
+
+                           ;; advanced optimization
+                           :optimizations :advanced
+
+                           ;; no need prettification
+                           :pretty-print false}}
+
+               :dev
                {;; clojurescript source code path
                 :source-paths ["src/cljs" "src/brepl"]
 
@@ -65,6 +105,15 @@
 
               :crossovers [valip.core valip.predicates
                            modern-cljs.login.validators
-                           modern-cljs.shopping.validators]}
+                           modern-cljs.shopping.validators]
+
+              :test-commands {"phantomjs-whitespace"
+                              ["phantomjs" :runner "test/js/testable_dbg.js"]
+
+                              "phantomjs-simple"
+                              ["phantomjs" :runner "test/js/testable_pre.js"]
+
+                              "phantomjs-advanced"
+                              ["phantomjs" :runner "test/js/testable.js"]}}
 
   :ring {:handler modern-cljs.core/app})
