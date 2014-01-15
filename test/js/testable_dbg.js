@@ -24340,333 +24340,333 @@ modern_cljs.shopping.validators_test.validate_shopping_form_test = function vali
   return cemerick.cljs.test.test_function.call(null, modern_cljs.shopping.validators_test.validate_shopping_form_test)
 };
 modern_cljs.shopping.validators_test.validate_shopping_form_test = cljs.core.vary_meta.call(null, modern_cljs.shopping.validators_test.validate_shopping_form_test, cljs.core.assoc, new cljs.core.Keyword(null, "name", "name", 1017277949), new cljs.core.Symbol(null, "validate-shopping-form-test", "validate-shopping-form-test", 1996964262, null), new cljs.core.Keyword(null, "test", "test", 1017460740), function validate_shopping_form_test_test() {
-  var _STAR_testing_contexts_STAR_6703 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
+  var _STAR_testing_contexts_STAR_10894 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
   try {
     cemerick.cljs.test._STAR_testing_contexts_STAR_ = cljs.core.conj.call(null, cemerick.cljs.test._STAR_testing_contexts_STAR_, "Shopping Form Validation");
-    var _STAR_testing_contexts_STAR_6704_6721 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
+    var _STAR_testing_contexts_STAR_10895_10912 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
     try {
       cemerick.cljs.test._STAR_testing_contexts_STAR_ = cljs.core.conj.call(null, cemerick.cljs.test._STAR_testing_contexts_STAR_, "/ Happy Path");
       try {
-        var values__6504__auto___6722 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "foo", "0", "0", "0")), null);
-        var result__6505__auto___6723 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6722);
-        if(cljs.core.truth_(result__6505__auto___6723)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6722), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
-          "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))], null))
+        var values__10695__auto___10913 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "0", "0")), null);
+        var result__10696__auto___10914 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10913);
+        if(cljs.core.truth_(result__10696__auto___10914)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10913), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+          "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", "0"))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6722)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
-          "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))], null))
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10913)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", "0"))], null))
         }
-      }catch(e6705) {
-        if(e6705 instanceof Error) {
-          var t__6541__auto___6724 = e6705;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6724, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
-          null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))], null))
+      }catch(e10896) {
+        if(e10896 instanceof Error) {
+          var t__10732__auto___10915 = e10896;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10915, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+          null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", "0"))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6705;
+            throw e10896;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6725 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0.0", "0.0", "0.0")), null);
-        var result__6505__auto___6726 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6725);
-        if(cljs.core.truth_(result__6505__auto___6726)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6725), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10916 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0.0", "0.0", "0.0")), null);
+        var result__10696__auto___10917 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10916);
+        if(cljs.core.truth_(result__10696__auto___10917)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10916), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0.0", "0.0", "0.0"))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6725)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10916)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0.0", "0.0", "0.0"))], null))
         }
-      }catch(e6706) {
-        if(e6706 instanceof Error) {
-          var t__6541__auto___6727 = e6706;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6727, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10897) {
+        if(e10897 instanceof Error) {
+          var t__10732__auto___10918 = e10897;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10918, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0.0", "0.0", "0.0"))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6706;
+            throw e10897;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6728 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "100", "100.25", "8.25", "123.45")), null);
-        var result__6505__auto___6729 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6728);
-        if(cljs.core.truth_(result__6505__auto___6729)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6728), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10919 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, modern_cljs.shopping.validators.validate_shopping_form.call(null, "100", "100.25", "8.25", "123.45")), null);
+        var result__10696__auto___10920 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10919);
+        if(cljs.core.truth_(result__10696__auto___10920)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10919), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "100", "100.25", "8.25", "123.45"))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6728)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10919)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "100", "100.25", "8.25", "123.45"))], null))
         }
-      }catch(e6707) {
-        if(e6707 instanceof Error) {
-          var t__6541__auto___6730 = e6707;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6730, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10898) {
+        if(e10898 instanceof Error) {
+          var t__10732__auto___10921 = e10898;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10921, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           null, cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "100", "100.25", "8.25", "123.45"))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6707;
+            throw e10898;
           }else {
           }
         }
       }
     }finally {
-      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_6704_6721
+      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_10895_10912
     }
-    var _STAR_testing_contexts_STAR_6708_6731 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
+    var _STAR_testing_contexts_STAR_10899_10922 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
     try {
       cemerick.cljs.test._STAR_testing_contexts_STAR_ = cljs.core.conj.call(null, cemerick.cljs.test._STAR_testing_contexts_STAR_, "/ No presence");
       try {
-        var values__6504__auto___6732 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "", "0", "0", "0")))), "Quantity can't be empty");
-        var result__6505__auto___6733 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6732);
-        if(cljs.core.truth_(result__6505__auto___6733)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6732), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10923 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "", "0", "0", "0")))), "Quantity can't be empty");
+        var result__10696__auto___10924 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10923);
+        if(cljs.core.truth_(result__10696__auto___10924)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10923), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Quantity can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "", "0", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6732)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10923)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Quantity can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "", "0", "0", "0"))))], null))
         }
-      }catch(e6709) {
-        if(e6709 instanceof Error) {
-          var t__6541__auto___6734 = e6709;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6734, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10900) {
+        if(e10900 instanceof Error) {
+          var t__10732__auto___10925 = e10900;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10925, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Quantity can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "", "0", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6709;
+            throw e10900;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6735 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "price", "price", 1120838843)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "", "0", "0")))), "Price can't be empty");
-        var result__6505__auto___6736 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6735);
-        if(cljs.core.truth_(result__6505__auto___6736)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6735), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10926 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "price", "price", 1120838843)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "", "0", "0")))), "Price can't be empty");
+        var result__10696__auto___10927 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10926);
+        if(cljs.core.truth_(result__10696__auto___10927)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10926), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Price can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6735)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10926)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Price can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "1", "", "0", "0"))))], null))
         }
-      }catch(e6710) {
-        if(e6710 instanceof Error) {
-          var t__6541__auto___6737 = e6710;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6737, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10901) {
+        if(e10901 instanceof Error) {
+          var t__10732__auto___10928 = e10901;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10928, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Price can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6710;
+            throw e10901;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6738 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "tax", "tax", 1014018845)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "", "0")))), "Tax can't be empty");
-        var result__6505__auto___6739 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6738);
-        if(cljs.core.truth_(result__6505__auto___6739)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6738), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10929 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "tax", "tax", 1014018845)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "", "0")))), "Tax can't be empty");
+        var result__10696__auto___10930 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10929);
+        if(cljs.core.truth_(result__10696__auto___10930)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10929), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Tax can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6738)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10929)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Tax can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "1", "0", "", "0"))))], null))
         }
-      }catch(e6711) {
-        if(e6711 instanceof Error) {
-          var t__6541__auto___6740 = e6711;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6740, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10902) {
+        if(e10902 instanceof Error) {
+          var t__10732__auto___10931 = e10902;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10931, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Tax can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6711;
+            throw e10902;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6741 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "discount", "discount", 1287088307)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "0", "")))), "Discount can't be empty");
-        var result__6505__auto___6742 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6741);
-        if(cljs.core.truth_(result__6505__auto___6742)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6741), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10932 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "discount", "discount", 1287088307)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "0", "")))), "Discount can't be empty");
+        var result__10696__auto___10933 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10932);
+        if(cljs.core.truth_(result__10696__auto___10933)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10932), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Discount can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", ""))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6741)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10932)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Discount can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "1", "0", "0", ""))))], null))
         }
-      }catch(e6712) {
-        if(e6712 instanceof Error) {
-          var t__6541__auto___6743 = e6712;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6743, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10903) {
+        if(e10903 instanceof Error) {
+          var t__10732__auto___10934 = e10903;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10934, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Discount can't be empty", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", ""))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6712;
+            throw e10903;
           }else {
           }
         }
       }
     }finally {
-      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_6708_6731
+      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_10899_10922
     }
-    var _STAR_testing_contexts_STAR_6713_6744 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
+    var _STAR_testing_contexts_STAR_10904_10935 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
     try {
       cemerick.cljs.test._STAR_testing_contexts_STAR_ = cljs.core.conj.call(null, cemerick.cljs.test._STAR_testing_contexts_STAR_, "/ Value Type");
       try {
-        var values__6504__auto___6745 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "foo", "0", "0", "0")))), "Quantity has to be an integer number");
-        var result__6505__auto___6746 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6745);
-        if(cljs.core.truth_(result__6505__auto___6746)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6745), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10936 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "foo", "0", "0", "0")))), "Quantity has to be an integer number");
+        var result__10696__auto___10937 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10936);
+        if(cljs.core.truth_(result__10696__auto___10937)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10936), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6745)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10936)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", 
           "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))))], null))
         }
-      }catch(e6714) {
-        if(e6714 instanceof Error) {
-          var t__6541__auto___6747 = e6714;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6747, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10905) {
+        if(e10905 instanceof Error) {
+          var t__10732__auto___10938 = e10905;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10938, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "foo", "0", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6714;
+            throw e10905;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6748 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1.1", "0", "0", "0")))), "Quantity has to be an integer number");
-        var result__6505__auto___6749 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6748);
-        if(cljs.core.truth_(result__6505__auto___6749)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6748), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10939 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1.1", "0", "0", "0")))), "Quantity has to be an integer number");
+        var result__10696__auto___10940 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10939);
+        if(cljs.core.truth_(result__10696__auto___10940)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10939), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1.1", "0", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6748)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10939)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", 
           "validate-shopping-form", -890158261, null), "1.1", "0", "0", "0"))))], null))
         }
-      }catch(e6715) {
-        if(e6715 instanceof Error) {
-          var t__6541__auto___6750 = e6715;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6750, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10906) {
+        if(e10906 instanceof Error) {
+          var t__10732__auto___10941 = e10906;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10941, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Quantity has to be an integer number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1.1", "0", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6715;
+            throw e10906;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6751 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "price", "price", 1120838843)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "foo", "0", "0")))), "Price has to be a number");
-        var result__6505__auto___6752 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6751);
-        if(cljs.core.truth_(result__6505__auto___6752)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6751), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10942 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "price", "price", 1120838843)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "foo", "0", "0")))), "Price has to be a number");
+        var result__10696__auto___10943 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10942);
+        if(cljs.core.truth_(result__10696__auto___10943)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10942), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Price has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "foo", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6751)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10942)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Price has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "1", "foo", "0", "0"))))], null))
         }
-      }catch(e6716) {
-        if(e6716 instanceof Error) {
-          var t__6541__auto___6753 = e6716;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6753, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10907) {
+        if(e10907 instanceof Error) {
+          var t__10732__auto___10944 = e10907;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10944, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Price has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "price", "price", 1120838843), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "foo", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6716;
+            throw e10907;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6754 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "tax", "tax", 1014018845)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "foo", "0")))), "Tax has to be a number");
-        var result__6505__auto___6755 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6754);
-        if(cljs.core.truth_(result__6505__auto___6755)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6754), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10945 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "tax", "tax", 1014018845)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "foo", "0")))), "Tax has to be a number");
+        var result__10696__auto___10946 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10945);
+        if(cljs.core.truth_(result__10696__auto___10946)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10945), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Tax has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "foo", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6754)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10945)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Tax has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "1", "0", "foo", "0"))))], null))
         }
-      }catch(e6717) {
-        if(e6717 instanceof Error) {
-          var t__6541__auto___6756 = e6717;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6756, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10908) {
+        if(e10908 instanceof Error) {
+          var t__10732__auto___10947 = e10908;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10947, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Tax has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "tax", "tax", 1014018845), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "foo", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6717;
+            throw e10908;
           }else {
           }
         }
       }
       try {
-        var values__6504__auto___6757 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "discount", "discount", 1287088307)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "0", "foo")))), "Discount has to be a number");
-        var result__6505__auto___6758 = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto___6757);
-        if(cljs.core.truth_(result__6505__auto___6758)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto___6757), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto___10948 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "discount", "discount", 1287088307)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "1", "0", "0", "foo")))), "Discount has to be a number");
+        var result__10696__auto___10949 = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto___10948);
+        if(cljs.core.truth_(result__10696__auto___10949)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto___10948), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Discount has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", "foo"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto___6757)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto___10948)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", 
           "fail", 1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Discount has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", 
           "validate-shopping-form", -890158261, null), "1", "0", "0", "foo"))))], null))
         }
-      }catch(e6718) {
-        if(e6718 instanceof Error) {
-          var t__6541__auto___6759 = e6718;
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto___6759, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+      }catch(e10909) {
+        if(e10909 instanceof Error) {
+          var t__10732__auto___10950 = e10909;
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto___10950, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Discount has to be a number", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "discount", "discount", 1287088307), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "1", "0", "0", "foo"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6718;
+            throw e10909;
           }else {
           }
         }
       }
     }finally {
-      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_6713_6744
+      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_10904_10935
     }
-    var _STAR_testing_contexts_STAR_6719 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
+    var _STAR_testing_contexts_STAR_10910 = cemerick.cljs.test._STAR_testing_contexts_STAR_;
     try {
       cemerick.cljs.test._STAR_testing_contexts_STAR_ = cljs.core.conj.call(null, cemerick.cljs.test._STAR_testing_contexts_STAR_, "/ Value Range");
       try {
-        var values__6504__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "-1", "0", "0", "0")))), "Quantity can't be negative");
-        var result__6505__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__6504__auto__);
-        if(cljs.core.truth_(result__6505__auto__)) {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__6504__auto__), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
+        var values__10695__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.first.call(null, (new cljs.core.Keyword(null, "quantity", "quantity", 4023867389)).cljs$core$IFn$_invoke$arity$1(modern_cljs.shopping.validators.validate_shopping_form.call(null, "-1", "0", "0", "0")))), "Quantity can't be negative");
+        var result__10696__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__10695__auto__);
+        if(cljs.core.truth_(result__10696__auto__)) {
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core.cons.call(null, cljs.core._EQ_, values__10695__auto__), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "pass", "pass", 1017337731), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, 
           "\x3d", "\x3d", -1640531466, null), "Quantity can't be negative", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "-1", "0", "0", "0"))))], null))
         }else {
-          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__6504__auto__)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", "fail", 
+          cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), values__10695__auto__)), new cljs.core.Symbol(null, "not", "not", -1640422260, null)), new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "fail", "fail", 
           1017039504), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), "Quantity can't be negative", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", 
           -890158261, null), "-1", "0", "0", "0"))))], null))
         }
-        return result__6505__auto__
-      }catch(e6720) {
-        if(e6720 instanceof Error) {
-          var t__6541__auto__ = e6720;
-          return cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__6541__auto__, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
+        return result__10696__auto__
+      }catch(e10911) {
+        if(e10911 instanceof Error) {
+          var t__10732__auto__ = e10911;
+          return cemerick.cljs.test.do_report.call(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "actual", "actual", 3885931776), t__10732__auto__, new cljs.core.Keyword(null, "type", "type", 1017479852), new cljs.core.Keyword(null, "error", "error", 1110689146), new cljs.core.Keyword(null, "message", "message", 1968829305), null, new cljs.core.Keyword(null, "expected", "expected", 3373152810), cljs.core.list(new cljs.core.Symbol(null, "\x3d", "\x3d", -1640531466, null), 
           "Quantity can't be negative", cljs.core.list(new cljs.core.Symbol(null, "first", "first", -1543091095, null), cljs.core.list(new cljs.core.Keyword(null, "quantity", "quantity", 4023867389), cljs.core.list(new cljs.core.Symbol(null, "validate-shopping-form", "validate-shopping-form", -890158261, null), "-1", "0", "0", "0"))))], null))
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
-            throw e6720;
+            throw e10911;
           }else {
             return null
           }
         }
       }
     }finally {
-      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_6719
+      cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_10910
     }
   }finally {
-    cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_6703
+    cemerick.cljs.test._STAR_testing_contexts_STAR_ = _STAR_testing_contexts_STAR_10894
   }
 });
 cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "modern-cljs.shopping.validators-test", "modern-cljs.shopping.validators-test", 1119101311, null), modern_cljs.shopping.validators_test.validate_shopping_form_test);

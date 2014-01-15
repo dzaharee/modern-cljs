@@ -19,16 +19,25 @@
   ;; lein-ljsbuild plugin to build a cljs project
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.8"]
-            [com.cemerick/clojurescript.test "0.2.1"]]
+            [com.cemerick/clojurescript.test "0.2.1"]
+            [com.keminglabs/cljx "0.3.0"]]
 
   :hooks [leiningen.cljsbuild]
 
-  :test-paths ["test/clj" "test/cljs"]
+  :test-paths ["target/test/clj" "target/test/cljs"]
+
+  :cljx {:builds [{:source-paths ["test/cljx"]
+                   :output-path "target/test/clj"
+                   :rules :clj}
+
+                  {:source-paths ["test/cljx"]
+                   :output-path "target/test/cljs"
+                   :rules :cljs}]}
 
   :cljsbuild {:builds
               {:ws-unit-tests
                {;; CLJS source code and unit test paths
-                :source-paths ["src/brepl" "src/cljs" "test/cljs"]
+                :source-paths ["src/brepl" "src/cljs" "target/test/cljs"]
 
                 ;; Google Closure Compiler options
                 :compiler {;; the name of emitted JS script file for unit testing
@@ -41,7 +50,7 @@
 
                :simple-unit-tests
                {;; same path as above
-                :source-paths ["src/brepl" "src/cljs" "test/cljs"]
+                :source-paths ["src/brepl" "src/cljs" "target/test/cljs"]
 
                 :compiler {;; different JS output name for unit testing
                            :output-to "test/js/testable_pre.js"
@@ -54,7 +63,7 @@
 
                :advanced-unit-tests
                {;; same path as above
-                :source-paths ["src/cljs" "test/cljs"]
+                :source-paths ["src/cljs" "target/test/cljs"]
 
                 :compiler {;; different JS output name for unit testing
                            :output-to "test/js/testable.js"
